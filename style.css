@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgba(232,220,206,255); */
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 5px; 
+  font-size: 1.875rem;
+  margin: 0 145px; /* Align with grid-content */
+}
+
+.border-bottom{
+  border-bottom: 1px solid rgba(225, 234, 65, 0.5);
+}
+
+.ordernow ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.ordernow a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+
+.shopping_cart {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: #0056b3;
+  display: flex;
+  align-items: center;
+  background-color: white; /* Set background color to white */
+}
+
+.shopping_cart i {
+  margin-right: 8px;
+}
+
+/* Optional: Add a hover effect */
+.shopping_cart:hover {
+  background-color: #f1f1f1; /* Slightly different background color on hover */
+}
+
+/* Targeting only the Font Awesome icon */
+.button .fa-shopping-cart {
+  font-size: 32px;
+  margin-right: 8px; 
+}
+
+/* Brand and Button Styles */
+.brand {
+  display: flex;
+  align-items: center; 
+}
+
+.brand img {
+  margin-right: 10px; 
+}
+
+.order-now button {
+  padding: 10px 20px; 
+  font-size: 16px; 
+}
+
+/* Content Styles */
+.content {
+  position: relative;
+  width: calc(100% - 290px); /* Adjust width to align with margins */
+  text-align: center; 
+  margin: 20px 145px; /* Consistent margin with grid-content */
+}
+
+.content img {
+  width: 1200px;      
+  height: 400px;      
+  margin: 0 auto;   
+  display: block;     
+  border-radius: 20px;
+  object-fit: fill;
+}
+
+.content_text {
+  font-size: 80px;
+  color: white; 
+  position: relative;
+  bottom: 275px;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+
+
+/* Featured Styles */
+.featured {
+  font-size: 1.875rem;
+  margin: 20px 145px; /* Align with grid-content */
+  padding-bottom: 10px;
+}
+
+.custom-animation{
+  animation-duration: 4s; 
+}
+
+/* Grid Content Styles */
+/* Grid Content Styles */
+.grid-content {
+  display: grid;
+  color: blue;
+  text-align: center;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(300px, auto);
+  margin: 20px 145px; /* Consistent margin */
+  width: calc(100% - 290px); /* Adjust width to align with margins */
+}
+
+/* Ensure images and content are consistent */
+.grid-content img {
+  width: 90%; /* Full width of grid cell */
+  background-color: rgba(246, 246, 246, 255);
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.grid-content div {
+  border: solid black 1px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Ensure consistent content layout */
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-content .grid-items {
+  color: black;
+}
+
+
+.order-now {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(247, 247, 65);
+  color: rgb(0, 0, 0);
+  transition: background-color 1s,color 1s;
+
+}
+
+.order-now:hover {
+  background-color: #0056b3;
+  color: white;
+
+}
+
+
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f1f1f1;  /*rgba(10,10,10,255) */
+}
+
+.information {
+  margin: 0 20px;
+}
+
+.info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info li {
+  margin-bottom: 10px;
+}
+
+.info a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Link color */
+}
+
+.info a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
